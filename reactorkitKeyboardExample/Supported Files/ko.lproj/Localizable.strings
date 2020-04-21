@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  reactorkitKeyboardExample
+
+  Created by Fernando on 2020/04/21.
+  Copyright © 2020 tmsae. All rights reserved.
+*/
+
+// WriteViewController
+"paste_alert_title" = "알림";
+"paste_alert_body" = "클립보드에 내용이 감지 되었습니다.";
+"paste_alert_okay_button" = "붙이기";
+"paste_alert_cancel_button" = "취소하기";
+"paste_alert_message" = "정상적으로 추가되었습니다";
+"write_title" = "추가하기";
+
+// SettingViewController
+"setting_title" = "설정";
+"edit_title" = "편집";
+"opensource_title" = "오픈소스 라이센스";
+"github_repo_title" = "Github 레포지토리로 이동";
+"opensource_comment" = "해당 예제를 clone 받아주셔서 감사합니다. 🚀";
+
+// Common Messages
+"app_title" = "Keyboard-Example";
+"common_ok" = "확인";
+"common_loading" = "로딩중";
+"common_close" = "닫기";
+"common_save" = "저장";
+"common_load_data" = "데이터 불러오기";
+"message_list_empty" = "리스트가 비어있습니다 내용을 추가해주세요.";
+
+// Keyboard
+"space" = "space";
+

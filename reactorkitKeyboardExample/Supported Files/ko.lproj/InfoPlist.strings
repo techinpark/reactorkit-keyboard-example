@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  reactorkitKeyboardExample
+
+  Created by Fernando on 2020/04/21.
+  Copyright © 2020 tmsae. All rights reserved.
+*/
+"CFBundleDisplayName" = "Keyboard-Example";

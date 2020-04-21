@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2325D6B6E78502333B03A1F1 /* Pods_keyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968073ACABAB3358884C79DC /* Pods_keyboard.framework */; };
+		CCBECB9BD5869123E121BC84 /* Pods_reactorkitKeyboardExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F01FA2BC9C3FA2798570C834 /* Pods_reactorkitKeyboardExample.framework */; };
+		ED0EFE11244EC62D00608FDD /* Pods-reactorkitKeyboardExample-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED0EFE10244EC62D00608FDD /* Pods-reactorkitKeyboardExample-acknowledgements.plist */; };
+		ED0EFE14244ECBEF00608FDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED0EFE16244ECBEF00608FDD /* InfoPlist.strings */; };
+		ED15C026244EDA9000483E20 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDED22CE244E0CD3004503BB /* Localizable.strings */; };
+		ED15C029244EDABD00483E20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED15C02B244EDABD00483E20 /* InfoPlist.strings */; };
+		ED15C02E244EDB7A00483E20 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15C02D244EDB7A00483E20 /* UIColor.swift */; };
+		ED15C02F244EDBA700483E20 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15C02D244EDB7A00483E20 /* UIColor.swift */; };
+		ED8A0173244E03B100D0C796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8A0172244E03B100D0C796 /* AppDelegate.swift */; };
+		ED8A0177244E03B100D0C796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8A0176244E03B100D0C796 /* ViewController.swift */; };
+		ED8A017A244E03B100D0C796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8A0178244E03B100D0C796 /* Main.storyboard */; };
+		ED8A017C244E03B300D0C796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8A017B244E03B300D0C796 /* Assets.xcassets */; };
+		ED8A017F244E03B300D0C796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8A017D244E03B300D0C796 /* LaunchScreen.storyboard */; };
+		EDED2298244E079A004503BB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED2297244E079A004503BB /* BaseViewController.swift */; };
+		EDED229A244E07C7004503BB /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED2299244E07C7004503BB /* BaseNavigationController.swift */; };
+		EDED229C244E07E5004503BB /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED229B244E07E5004503BB /* BaseTableViewCell.swift */; };
+		EDED229E244E0807004503BB /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED229D244E0807004503BB /* Logger.swift */; };
+		EDED22A0244E08A4004503BB /* MainViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED229F244E08A4004503BB /* MainViewReactor.swift */; };
+		EDED22A2244E08C0004503BB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22A1244E08C0004503BB /* MainViewController.swift */; };
+		EDED22A5244E08F2004503BB /* MainTableViewCellReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22A4244E08F2004503BB /* MainTableViewCellReactor.swift */; };
+		EDED22A7244E0900004503BB /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22A6244E0900004503BB /* MainTableViewCell.swift */; };
+		EDED22A9244E0926004503BB /* MainSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22A8244E0926004503BB /* MainSection.swift */; };
+		EDED22AC244E0956004503BB /* Utillity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22AB244E0956004503BB /* Utillity.swift */; };
+		EDED22AE244E096E004503BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22AD244E096E004503BB /* Constants.swift */; };
+		EDED22B1244E09BD004503BB /* UITableView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22B0244E09BD004503BB /* UITableView+Rx.swift */; };
+		EDED22B9244E09E6004503BB /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22B8244E09E6004503BB /* KeyboardViewController.swift */; };
+		EDED22BD244E09E6004503BB /* keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDED22B6244E09E6004503BB /* keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EDED22C3244E0A19004503BB /* GlobalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22C2244E0A19004503BB /* GlobalColors.swift */; };
+		EDED22C5244E0B28004503BB /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22C4244E0B28004503BB /* WriteViewController.swift */; };
+		EDED22C7244E0B38004503BB /* WriteViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22C6244E0B38004503BB /* WriteViewReactor.swift */; };
+		EDED22CC244E0CD3004503BB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDED22CE244E0CD3004503BB /* Localizable.strings */; };
+		EDED22D1244E0E2A004503BB /* SettingsViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22D0244E0E2A004503BB /* SettingsViewReactor.swift */; };
+		EDED22D3244E0E3A004503BB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22D2244E0E3A004503BB /* SettingsViewController.swift */; };
+		EDED22D5244E0EF1004503BB /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22D4244E0EF1004503BB /* SettingCell.swift */; };
+		EDED22D7244E0F0C004503BB /* SettingCellReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22D6244E0F0C004503BB /* SettingCellReactor.swift */; };
+		EDED22D9244E0F30004503BB /* SettingMenuTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22D8244E0F30004503BB /* SettingMenuTypes.swift */; };
+		EDED22DB244E0F4E004503BB /* SettingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22DA244E0F4E004503BB /* SettingSection.swift */; };
+		EDED22DD244E0FC1004503BB /* SettingFooterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22DC244E0FC1004503BB /* SettingFooterType.swift */; };
+		EDED22DF244E1025004503BB /* SettingSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22DE244E1025004503BB /* SettingSectionFooterView.swift */; };
+		EDED22E1244E1030004503BB /* SettingSectionFooterViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22E0244E1030004503BB /* SettingSectionFooterViewReactor.swift */; };
+		EDED22E5244E1168004503BB /* ListCellReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22E4244E1168004503BB /* ListCellReactor.swift */; };
+		EDED22E7244E1171004503BB /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22E6244E1171004503BB /* ListCell.swift */; };
+		EDED22E9244E1191004503BB /* ListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22E8244E1191004503BB /* ListSection.swift */; };
+		EDED22EB244E11A9004503BB /* BaseInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22EA244E11A9004503BB /* BaseInputViewController.swift */; };
+		EDED22ED244E11CA004503BB /* KeyboardViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22EC244E11CA004503BB /* KeyboardViewReactor.swift */; };
+		EDED22F0244E1218004503BB /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED229B244E07E5004503BB /* BaseTableViewCell.swift */; };
+		EDED22F1244E1220004503BB /* GlobalColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22C2244E0A19004503BB /* GlobalColors.swift */; };
+		EDED22F2244E1223004503BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22AD244E096E004503BB /* Constants.swift */; };
+		EDED22F5244E126B004503BB /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22F4244E126B004503BB /* UIButton.swift */; };
+		EDED22F6244E127E004503BB /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED229D244E0807004503BB /* Logger.swift */; };
+		EDED22F7244E12C1004503BB /* UITableView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDED22B0244E09BD004503BB /* UITableView+Rx.swift */; };
+		EDED22FA244E1504004503BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8A017B244E03B300D0C796 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDED22BB244E09E6004503BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED8A0167244E03B100D0C796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDED22B5244E09E6004503BB;
+			remoteInfo = keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDED22C1244E09E6004503BB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EDED22BD244E09E6004503BB /* keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2038FF17147E219B043ABEAB /* Pods-reactorkitKeyboardExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactorkitKeyboardExample.release.xcconfig"; path = "Target Support Files/Pods-reactorkitKeyboardExample/Pods-reactorkitKeyboardExample.release.xcconfig"; sourceTree = "<group>"; };
+		6AFD01CE0785D20809E99E2B /* Pods-keyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keyboard.release.xcconfig"; path = "Target Support Files/Pods-keyboard/Pods-keyboard.release.xcconfig"; sourceTree = "<group>"; };
+		6BC67B005AA82AFD5DBBB4B5 /* Pods-keyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-keyboard.debug.xcconfig"; path = "Target Support Files/Pods-keyboard/Pods-keyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		968073ACABAB3358884C79DC /* Pods_keyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_keyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0AB43F661D32464E4E23C4 /* Pods-reactorkitKeyboardExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactorkitKeyboardExample.debug.xcconfig"; path = "Target Support Files/Pods-reactorkitKeyboardExample/Pods-reactorkitKeyboardExample.debug.xcconfig"; sourceTree = "<group>"; };
+		ED0EFE10244EC62D00608FDD /* Pods-reactorkitKeyboardExample-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "Pods-reactorkitKeyboardExample-acknowledgements.plist"; path = "Pods/Target Support Files/Pods-reactorkitKeyboardExample/Pods-reactorkitKeyboardExample-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+		ED0EFE15244ECBEF00608FDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED0EFE17244ECBF000608FDD /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED15C02A244EDABD00483E20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED15C02C244EDABE00483E20 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED15C02D244EDB7A00483E20 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		ED8A016F244E03B100D0C796 /* reactorkitKeyboardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactorkitKeyboardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8A0172244E03B100D0C796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED8A0176244E03B100D0C796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED8A0179244E03B100D0C796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED8A017B244E03B300D0C796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8A017E244E03B300D0C796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8A0180244E03B300D0C796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDED2297244E079A004503BB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EDED2299244E07C7004503BB /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		EDED229B244E07E5004503BB /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		EDED229D244E0807004503BB /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		EDED229F244E08A4004503BB /* MainViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewReactor.swift; sourceTree = "<group>"; };
+		EDED22A1244E08C0004503BB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EDED22A4244E08F2004503BB /* MainTableViewCellReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCellReactor.swift; sourceTree = "<group>"; };
+		EDED22A6244E0900004503BB /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		EDED22A8244E0926004503BB /* MainSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSection.swift; sourceTree = "<group>"; };
+		EDED22AB244E0956004503BB /* Utillity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utillity.swift; sourceTree = "<group>"; };
+		EDED22AD244E096E004503BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EDED22B0244E09BD004503BB /* UITableView+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Rx.swift"; sourceTree = "<group>"; };
+		EDED22B6244E09E6004503BB /* keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDED22B8244E09E6004503BB /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		EDED22BA244E09E6004503BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDED22C2244E0A19004503BB /* GlobalColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalColors.swift; sourceTree = "<group>"; };
+		EDED22C4244E0B28004503BB /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		EDED22C6244E0B38004503BB /* WriteViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewReactor.swift; sourceTree = "<group>"; };
+		EDED22C8244E0C6A004503BB /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		EDED22C9244E0C6A004503BB /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		EDED22CD244E0CD3004503BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EDED22CF244E0CD4004503BB /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EDED22D0244E0E2A004503BB /* SettingsViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewReactor.swift; sourceTree = "<group>"; };
+		EDED22D2244E0E3A004503BB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EDED22D4244E0EF1004503BB /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		EDED22D6244E0F0C004503BB /* SettingCellReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCellReactor.swift; sourceTree = "<group>"; };
+		EDED22D8244E0F30004503BB /* SettingMenuTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenuTypes.swift; sourceTree = "<group>"; };
+		EDED22DA244E0F4E004503BB /* SettingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSection.swift; sourceTree = "<group>"; };
+		EDED22DC244E0FC1004503BB /* SettingFooterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingFooterType.swift; sourceTree = "<group>"; };
+		EDED22DE244E1025004503BB /* SettingSectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSectionFooterView.swift; sourceTree = "<group>"; };
+		EDED22E0244E1030004503BB /* SettingSectionFooterViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSectionFooterViewReactor.swift; sourceTree = "<group>"; };
+		EDED22E4244E1168004503BB /* ListCellReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellReactor.swift; sourceTree = "<group>"; };
+		EDED22E6244E1171004503BB /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		EDED22E8244E1191004503BB /* ListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSection.swift; sourceTree = "<group>"; };
+		EDED22EA244E11A9004503BB /* BaseInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInputViewController.swift; sourceTree = "<group>"; };
+		EDED22EC244E11CA004503BB /* KeyboardViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewReactor.swift; sourceTree = "<group>"; };
+		EDED22F4244E126B004503BB /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		EDED22F8244E138C004503BB /* reactorkitKeyboardExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = reactorkitKeyboardExample.entitlements; sourceTree = "<group>"; };
+		EDED22F9244E1463004503BB /* keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = keyboard.entitlements; sourceTree = "<group>"; };
+		F01FA2BC9C3FA2798570C834 /* Pods_reactorkitKeyboardExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_reactorkitKeyboardExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8A016C244E03B100D0C796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCBECB9BD5869123E121BC84 /* Pods_reactorkitKeyboardExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDED22B3244E09E6004503BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2325D6B6E78502333B03A1F1 /* Pods_keyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC481367D8F21772CD5D51A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F01FA2BC9C3FA2798570C834 /* Pods_reactorkitKeyboardExample.framework */,
+				968073ACABAB3358884C79DC /* Pods_keyboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC6DAB0B1CEA65BD340F2FCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA0AB43F661D32464E4E23C4 /* Pods-reactorkitKeyboardExample.debug.xcconfig */,
+				2038FF17147E219B043ABEAB /* Pods-reactorkitKeyboardExample.release.xcconfig */,
+				6BC67B005AA82AFD5DBBB4B5 /* Pods-keyboard.debug.xcconfig */,
+				6AFD01CE0785D20809E99E2B /* Pods-keyboard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED8A0166244E03B100D0C796 = {
+			isa = PBXGroup;
+			children = (
+				ED8A0171244E03B100D0C796 /* reactorkitKeyboardExample */,
+				EDED22B7244E09E6004503BB /* keyboard */,
+				ED8A0170244E03B100D0C796 /* Products */,
+				CC6DAB0B1CEA65BD340F2FCB /* Pods */,
+				AC481367D8F21772CD5D51A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8A0170244E03B100D0C796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8A016F244E03B100D0C796 /* reactorkitKeyboardExample.app */,
+				EDED22B6244E09E6004503BB /* keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8A0171244E03B100D0C796 /* reactorkitKeyboardExample */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22F8244E138C004503BB /* reactorkitKeyboardExample.entitlements */,
+				EDED22AA244E094A004503BB /* Common */,
+				EDED2296244E0777004503BB /* Logging */,
+				EDED2290244E069E004503BB /* Base */,
+				EDED2291244E06A4004503BB /* ViewControllers */,
+				EDED228F244E0697004503BB /* Views */,
+				EDED2294244E06B9004503BB /* Extensions */,
+				EDED2293244E06B5004503BB /* Types */,
+				EDED2292244E06AF004503BB /* Sections */,
+				ED8A0172244E03B100D0C796 /* AppDelegate.swift */,
+				ED8A0176244E03B100D0C796 /* ViewController.swift */,
+				ED8A0178244E03B100D0C796 /* Main.storyboard */,
+				EDED2295244E0748004503BB /* Supported Files */,
+				ED8A017D244E03B300D0C796 /* LaunchScreen.storyboard */,
+				ED8A0180244E03B300D0C796 /* Info.plist */,
+			);
+			path = reactorkitKeyboardExample;
+			sourceTree = "<group>";
+		};
+		EDED228F244E0697004503BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22A3244E08E4004503BB /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDED2290244E069E004503BB /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EDED2297244E079A004503BB /* BaseViewController.swift */,
+				EDED2299244E07C7004503BB /* BaseNavigationController.swift */,
+				EDED229B244E07E5004503BB /* BaseTableViewCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EDED2291244E06A4004503BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDED229F244E08A4004503BB /* MainViewReactor.swift */,
+				EDED22A1244E08C0004503BB /* MainViewController.swift */,
+				EDED22C4244E0B28004503BB /* WriteViewController.swift */,
+				EDED22C6244E0B38004503BB /* WriteViewReactor.swift */,
+				EDED22D0244E0E2A004503BB /* SettingsViewReactor.swift */,
+				EDED22D2244E0E3A004503BB /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EDED2292244E06AF004503BB /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22A8244E0926004503BB /* MainSection.swift */,
+				EDED22DA244E0F4E004503BB /* SettingSection.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		EDED2293244E06B5004503BB /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22D8244E0F30004503BB /* SettingMenuTypes.swift */,
+				EDED22DC244E0FC1004503BB /* SettingFooterType.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		EDED2294244E06B9004503BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22AF244E09B0004503BB /* Rx */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EDED2295244E0748004503BB /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED0EFE10244EC62D00608FDD /* Pods-reactorkitKeyboardExample-acknowledgements.plist */,
+				ED8A017B244E03B300D0C796 /* Assets.xcassets */,
+				EDED22CE244E0CD3004503BB /* Localizable.strings */,
+				ED15C02B244EDABD00483E20 /* InfoPlist.strings */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		EDED2296244E0777004503BB /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				EDED229D244E0807004503BB /* Logger.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		EDED22A3244E08E4004503BB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22A4244E08F2004503BB /* MainTableViewCellReactor.swift */,
+				EDED22A6244E0900004503BB /* MainTableViewCell.swift */,
+				EDED22D4244E0EF1004503BB /* SettingCell.swift */,
+				EDED22D6244E0F0C004503BB /* SettingCellReactor.swift */,
+				EDED22DE244E1025004503BB /* SettingSectionFooterView.swift */,
+				EDED22E0244E1030004503BB /* SettingSectionFooterViewReactor.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EDED22AA244E094A004503BB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22AB244E0956004503BB /* Utillity.swift */,
+				EDED22AD244E096E004503BB /* Constants.swift */,
+				EDED22C2244E0A19004503BB /* GlobalColors.swift */,
+				ED15C02D244EDB7A00483E20 /* UIColor.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EDED22AF244E09B0004503BB /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22B0244E09BD004503BB /* UITableView+Rx.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		EDED22B7244E09E6004503BB /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22F9244E1463004503BB /* keyboard.entitlements */,
+				EDED22F3244E1256004503BB /* Extensions */,
+				EDED22E3244E1115004503BB /* Views */,
+				EDED22E2244E10F8004503BB /* Sections */,
+				EDED22EC244E11CA004503BB /* KeyboardViewReactor.swift */,
+				EDED22B8244E09E6004503BB /* KeyboardViewController.swift */,
+				EDED22BA244E09E6004503BB /* Info.plist */,
+				EDED22EA244E11A9004503BB /* BaseInputViewController.swift */,
+				ED0EFE16244ECBEF00608FDD /* InfoPlist.strings */,
+			);
+			path = keyboard;
+			sourceTree = "<group>";
+		};
+		EDED22E2244E10F8004503BB /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22E8244E1191004503BB /* ListSection.swift */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		EDED22E3244E1115004503BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22E4244E1168004503BB /* ListCellReactor.swift */,
+				EDED22E6244E1171004503BB /* ListCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDED22F3244E1256004503BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EDED22F4244E126B004503BB /* UIButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8A016E244E03B100D0C796 /* reactorkitKeyboardExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8A0183244E03B300D0C796 /* Build configuration list for PBXNativeTarget "reactorkitKeyboardExample" */;
+			buildPhases = (
+				5F6A9D0E4A91C652AA66CB16 /* [CP] Check Pods Manifest.lock */,
+				ED8A016B244E03B100D0C796 /* Sources */,
+				ED8A016C244E03B100D0C796 /* Frameworks */,
+				ED8A016D244E03B100D0C796 /* Resources */,
+				B21E8754D643CAA2D1957BB5 /* [CP] Embed Pods Frameworks */,
+				EDED22C1244E09E6004503BB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDED22BC244E09E6004503BB /* PBXTargetDependency */,
+			);
+			name = reactorkitKeyboardExample;
+			productName = reactorkitKeyboardExample;
+			productReference = ED8A016F244E03B100D0C796 /* reactorkitKeyboardExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDED22B5244E09E6004503BB /* keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDED22BE244E09E6004503BB /* Build configuration list for PBXNativeTarget "keyboard" */;
+			buildPhases = (
+				479BFEF2E5A7E0CAFBAB9FFA /* [CP] Check Pods Manifest.lock */,
+				EDED22B2244E09E6004503BB /* Sources */,
+				EDED22B3244E09E6004503BB /* Frameworks */,
+				EDED22B4244E09E6004503BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keyboard;
+			productName = keyboard;
+			productReference = EDED22B6244E09E6004503BB /* keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8A0167244E03B100D0C796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = tmsae;
+				TargetAttributes = {
+					ED8A016E244E03B100D0C796 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EDED22B5244E09E6004503BB = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = ED8A016A244E03B100D0C796 /* Build configuration list for PBXProject "reactorkitKeyboardExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = ED8A0166244E03B100D0C796;
+			productRefGroup = ED8A0170244E03B100D0C796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8A016E244E03B100D0C796 /* reactorkitKeyboardExample */,
+				EDED22B5244E09E6004503BB /* keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8A016D244E03B100D0C796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8A017F244E03B300D0C796 /* LaunchScreen.storyboard in Resources */,
+				ED15C029244EDABD00483E20 /* InfoPlist.strings in Resources */,
+				ED0EFE11244EC62D00608FDD /* Pods-reactorkitKeyboardExample-acknowledgements.plist in Resources */,
+				EDED22CC244E0CD3004503BB /* Localizable.strings in Resources */,
+				ED8A017C244E03B300D0C796 /* Assets.xcassets in Resources */,
+				ED8A017A244E03B100D0C796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDED22B4244E09E6004503BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDED22FA244E1504004503BB /* Assets.xcassets in Resources */,
+				ED15C026244EDA9000483E20 /* Localizable.strings in Resources */,
+				ED0EFE14244ECBEF00608FDD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		479BFEF2E5A7E0CAFBAB9FFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-keyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F6A9D0E4A91C652AA66CB16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-reactorkitKeyboardExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B21E8754D643CAA2D1957BB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactorkitKeyboardExample/Pods-reactorkitKeyboardExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-reactorkitKeyboardExample/Pods-reactorkitKeyboardExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactorkitKeyboardExample/Pods-reactorkitKeyboardExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8A016B244E03B100D0C796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDED22C7244E0B38004503BB /* WriteViewReactor.swift in Sources */,
+				EDED229A244E07C7004503BB /* BaseNavigationController.swift in Sources */,
+				EDED22B1244E09BD004503BB /* UITableView+Rx.swift in Sources */,
+				EDED22A9244E0926004503BB /* MainSection.swift in Sources */,
+				EDED229E244E0807004503BB /* Logger.swift in Sources */,
+				EDED22D3244E0E3A004503BB /* SettingsViewController.swift in Sources */,
+				ED8A0177244E03B100D0C796 /* ViewController.swift in Sources */,
+				ED8A0173244E03B100D0C796 /* AppDelegate.swift in Sources */,
+				EDED22AC244E0956004503BB /* Utillity.swift in Sources */,
+				EDED22DD244E0FC1004503BB /* SettingFooterType.swift in Sources */,
+				EDED22DB244E0F4E004503BB /* SettingSection.swift in Sources */,
+				EDED22C3244E0A19004503BB /* GlobalColors.swift in Sources */,
+				EDED22A7244E0900004503BB /* MainTableViewCell.swift in Sources */,
+				EDED22E1244E1030004503BB /* SettingSectionFooterViewReactor.swift in Sources */,
+				EDED22AE244E096E004503BB /* Constants.swift in Sources */,
+				EDED22DF244E1025004503BB /* SettingSectionFooterView.swift in Sources */,
+				EDED22A0244E08A4004503BB /* MainViewReactor.swift in Sources */,
+				EDED22D9244E0F30004503BB /* SettingMenuTypes.swift in Sources */,
+				EDED22D1244E0E2A004503BB /* SettingsViewReactor.swift in Sources */,
+				EDED229C244E07E5004503BB /* BaseTableViewCell.swift in Sources */,
+				EDED22A5244E08F2004503BB /* MainTableViewCellReactor.swift in Sources */,
+				EDED2298244E079A004503BB /* BaseViewController.swift in Sources */,
+				ED15C02E244EDB7A00483E20 /* UIColor.swift in Sources */,
+				EDED22C5244E0B28004503BB /* WriteViewController.swift in Sources */,
+				EDED22D5244E0EF1004503BB /* SettingCell.swift in Sources */,
+				EDED22D7244E0F0C004503BB /* SettingCellReactor.swift in Sources */,
+				EDED22A2244E08C0004503BB /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDED22B2244E09E6004503BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDED22F0244E1218004503BB /* BaseTableViewCell.swift in Sources */,
+				EDED22EB244E11A9004503BB /* BaseInputViewController.swift in Sources */,
+				EDED22E7244E1171004503BB /* ListCell.swift in Sources */,
+				EDED22E9244E1191004503BB /* ListSection.swift in Sources */,
+				EDED22E5244E1168004503BB /* ListCellReactor.swift in Sources */,
+				EDED22F2244E1223004503BB /* Constants.swift in Sources */,
+				EDED22ED244E11CA004503BB /* KeyboardViewReactor.swift in Sources */,
+				EDED22F6244E127E004503BB /* Logger.swift in Sources */,
+				EDED22F5244E126B004503BB /* UIButton.swift in Sources */,
+				ED15C02F244EDBA700483E20 /* UIColor.swift in Sources */,
+				EDED22F7244E12C1004503BB /* UITableView+Rx.swift in Sources */,
+				EDED22F1244E1220004503BB /* GlobalColors.swift in Sources */,
+				EDED22B9244E09E6004503BB /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDED22BC244E09E6004503BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDED22B5244E09E6004503BB /* keyboard */;
+			targetProxy = EDED22BB244E09E6004503BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED0EFE16244ECBEF00608FDD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0EFE15244ECBEF00608FDD /* en */,
+				ED0EFE17244ECBF000608FDD /* ko */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED15C02B244EDABD00483E20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED15C02A244EDABD00483E20 /* en */,
+				ED15C02C244EDABE00483E20 /* ko */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED8A0178244E03B100D0C796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8A0179244E03B100D0C796 /* Base */,
+				EDED22C8244E0C6A004503BB /* ko */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED8A017D244E03B300D0C796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8A017E244E03B300D0C796 /* Base */,
+				EDED22C9244E0C6A004503BB /* ko */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EDED22CE244E0CD3004503BB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDED22CD244E0CD3004503BB /* en */,
+				EDED22CF244E0CD4004503BB /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8A0181244E03B300D0C796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED8A0182244E03B300D0C796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8A0184244E03B300D0C796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0AB43F661D32464E4E23C4 /* Pods-reactorkitKeyboardExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = reactorkitKeyboardExample/reactorkitKeyboardExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6GQL8JQMT;
+				INFOPLIST_FILE = reactorkitKeyboardExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmsae.reactorkitKeyboardExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8A0185244E03B300D0C796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2038FF17147E219B043ABEAB /* Pods-reactorkitKeyboardExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = reactorkitKeyboardExample/reactorkitKeyboardExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6GQL8JQMT;
+				INFOPLIST_FILE = reactorkitKeyboardExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmsae.reactorkitKeyboardExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDED22BF244E09E6004503BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC67B005AA82AFD5DBBB4B5 /* Pods-keyboard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = keyboard/keyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6GQL8JQMT;
+				INFOPLIST_FILE = keyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmsae.reactorkitKeyboardExample.keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDED22C0244E09E6004503BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AFD01CE0785D20809E99E2B /* Pods-keyboard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = keyboard/keyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6GQL8JQMT;
+				INFOPLIST_FILE = keyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tmsae.reactorkitKeyboardExample.keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8A016A244E03B100D0C796 /* Build configuration list for PBXProject "reactorkitKeyboardExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8A0181244E03B300D0C796 /* Debug */,
+				ED8A0182244E03B300D0C796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8A0183244E03B300D0C796 /* Build configuration list for PBXNativeTarget "reactorkitKeyboardExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8A0184244E03B300D0C796 /* Debug */,
+				ED8A0185244E03B300D0C796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDED22BE244E09E6004503BB /* Build configuration list for PBXNativeTarget "keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDED22BF244E09E6004503BB /* Debug */,
+				EDED22C0244E09E6004503BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED8A0167244E03B100D0C796 /* Project object */;
+}

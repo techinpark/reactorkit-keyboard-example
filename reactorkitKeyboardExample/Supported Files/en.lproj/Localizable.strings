@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  reactorkitKeyboardExample
+
+  Created by Fernando on 2020/04/21.
+  Copyright © 2020 tmsae. All rights reserved.
+*/
+
+// WriteViewController
+"paste_alert_title" = "Notice";
+"paste_alert_body" = "Detect Message in Clipboard";
+"paste_alert_okay_button" = "Paste";
+"paste_alert_cancel_button" = "Cancel";
+"paste_alert_message" = "New Message Added sucessfully";
+"write_title" = "Add New";
+
+// SettingViewController
+"setting_title" = "Settings";
+"edit_title" = "Edit";
+"opensource_title" = "Open Source License";
+"github_repo_title" = "Go to Github Repository";
+"opensource_comment" = "Thanks for clone this project 🚀";
+// Common Messages
+"app_title" = "Keyboard-Example";
+"common_ok" = "Okay";
+"common_loading" = "Loading";
+"common_close" = "Close";
+"common_save" = "Save";
+"common_load_data" = "Sync Saved Data";
+"message_list_empty" = "Now List is Empty.";
+
+// Keyboard
+"space" = "space";
