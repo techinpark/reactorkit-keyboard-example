@@ -1,6 +1,6 @@
 ![](./.github/images/header.png)
 
-# Reactorkit-keyboard-example [![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)](#) [![GitHub release](https://img.shields.io/github/release/carthage/carthage.svg)](https://github.com/Carthage/Carthage/releases) 
+# Reactorkit-keyboard-example [![GitHub license](https://img.shields.io/badge/license-MIT-green.svg)](#) 
 
 This project is ReactorKit based keyboard aplication example.
 
