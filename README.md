@@ -28,7 +28,6 @@ This project is ReactorKit based keyboard aplication example.
 - UI
 
   - [SnapKit](https://github.com/SnapKit/SnapKit)
-  - [PanModal](https://github.com/slackhq/PanModal)
 
 - etc
   - [AcknowList](https://github.com/vtourraine/AcknowList)
